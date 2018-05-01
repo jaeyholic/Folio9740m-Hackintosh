@@ -1,0 +1,62 @@
+28:122  1:299  Found UEFI Acpi 2.0 RSDP at B9FFE014
+28:126  0:004  Saving ACPI tables from RSDP B9FFE014 to EFI\CLOVER\ACPI\origin ...
+28:130  0:003   B9FFE014: 'RSD PTR ', Rev: 2 (Acpi 2.0 or newer), Len: 36
+28:156  0:026    (Xsdt: B9FFE120, Rsdt: B9FFE0AC)
+28:159  0:003    B9FFE120: 'XSDT', 'SLIC-MPC', Rev: 1, Len: 140
+28:170  0:010    B9FFE0AC: 'RSDT', 'SLIC-MPC', Rev: 1, Len: 88
+28:181  0:010    Tables in Xsdt: 13
+28:184  0:003    0. B9FFC000: 'FACP', '18DF', Rev: 5, Len: 268
+28:195  0:010        (Dsdt: B9FD3000, Facs: B9C33000, XDsdt: B9FD3000, XFacs: B9C33000)
+28:206  0:010        B9FD3000: 'DSDT', '18DF', Rev: 2, Len: 145073
+28:221  0:015        B9C33000: 'FACS', Ver: 1, Len: 64
+28:233  0:012    1. B9FFB000: 'HPET', '18DF', Rev: 1, Len: 56
+28:244  0:010    2. B9FFA000: 'APIC', '18DF', Rev: 1, Len: 188
+28:255  0:010    3. B9FF9000: 'MCFG', '18DF', Rev: 1, Len: 60
+28:266  0:011    4. B9FF7000: 'TCPA', '18DF', Rev: 2, Len: 50
+28:276  0:010    5. B9FD0000: 'SSDT', 'SataAhci', Rev: 1, Len: 714
+28:287  0:010    6. B9FCF000: 'SSDT', 'PtidDevc', Rev: 1, Len: 1162
+28:298  0:010    7. B9FCE000: 'SLIC', 'SLIC-MPC', Rev: 1, Len: 374
+28:308  0:010    8. B9FCC000: 'FPDT', '18DF', Rev: 1, Len: 68
+28:324  0:015    9. B9FCB000: 'BGRT', '18DF', Rev: 0, Len: 56
+28:335  0:010    10. B9FCA000: 'SSDT', 'Cpu0Ist', Rev: 1, Len: 2486
+28:346  0:010    11. B9FC9000: 'SSDT', 'CpuPm', Rev: 1, Len: 2878
+28:356  0:010    12. B9FF8000: 'ASF!', '18DF', Rev: 32, Len: 165
+28:368  0:011    Tables in Rsdt: 13
+28:372  0:003    0. B9FFC000: 'FACP', '18DF', Rev: 5, Len: 268
+28:382  0:010        (Dsdt: B9FD3000, Facs: B9C33000, XDsdt: B9FD3000, XFacs: B9C33000)
+28:393  0:010        B9FD3000: 'DSDT', '18DF', Rev: 2, Len: 145073
+28:414  0:020        B9C33000: 'FACS', Ver: 1, Len: 64
+28:421  0:007    1. B9FFB000: 'HPET', '18DF', Rev: 1, Len: 56
+28:432  0:010    2. B9FFA000: 'APIC', '18DF', Rev: 1, Len: 188
+28:442  0:010    3. B9FF9000: 'MCFG', '18DF', Rev: 1, Len: 60
+28:453  0:010    4. B9FF7000: 'TCPA', '18DF', Rev: 2, Len: 50
+28:463  0:010    5. B9FD0000: 'SSDT', 'SataAhci', Rev: 1, Len: 714
+28:473  0:010    6. B9FCF000: 'SSDT', 'PtidDevc', Rev: 1, Len: 1162
+28:484  0:010    7. B9FCE000: 'SLIC', 'SLIC-MPC', Rev: 1, Len: 374
+28:500  0:015    8. B9FCC000: 'FPDT', '18DF', Rev: 1, Len: 68
+28:511  0:010    9. B9FCB000: 'BGRT', '18DF', Rev: 0, Len: 56
+28:521  0:010    10. B9FCA000: 'SSDT', 'Cpu0Ist', Rev: 1, Len: 2486
+28:532  0:010    11. B9FC9000: 'SSDT', 'CpuPm', Rev: 1, Len: 2878
+28:543  0:010    12. B9FF8000: 'ASF!', '18DF', Rev: 32, Len: 165
+28:553  0:010  Found UEFI Acpi 1.0 RSDP at B9FFE000
+28:557  0:003  Printing ACPI tables from RSDP B9FFE000 ...
+28:560  0:003   B9FFE000: 'RSD PTR ', Rev: 0 (Acpi 1.0), Len: 20
+28:579  0:019    (Rsdt: B9FFE038)
+28:583  0:003    B9FFE038: 'RSDT', 'SLIC-MPC', Rev: 1, Len: 88
+28:595  0:012    Tables in Rsdt: 13
+28:599  0:003    0. B9FFD000: 'FACP', '18DF', Rev: 1, Len: 116
+28:609  0:010        (Dsdt: B9FD3000, Facs: B9C33000)
+28:616  0:007        B9FD3000: 'DSDT', '18DF', Rev: 2, Len: 145073
+28:632  0:015        B9C33000: 'FACS', Ver: 1, Len: 64
+28:639  0:007    1. B9FFB000: 'HPET', '18DF', Rev: 1, Len: 56
+28:650  0:010    2. B9FFA000: 'APIC', '18DF', Rev: 1, Len: 188
+28:666  0:015    3. B9FF9000: 'MCFG', '18DF', Rev: 1, Len: 60
+28:677  0:010    4. B9FF7000: 'TCPA', '18DF', Rev: 2, Len: 50
+28:687  0:010    5. B9FD0000: 'SSDT', 'SataAhci', Rev: 1, Len: 714
+28:698  0:010    6. B9FCF000: 'SSDT', 'PtidDevc', Rev: 1, Len: 1162
+28:709  0:010    7. B9FCE000: 'SLIC', 'SLIC-MPC', Rev: 1, Len: 374
+28:719  0:010    8. B9FCC000: 'FPDT', '18DF', Rev: 1, Len: 68
+28:730  0:010    9. B9FCB000: 'BGRT', '18DF', Rev: 0, Len: 56
+28:741  0:010    10. B9FCA000: 'SSDT', 'Cpu0Ist', Rev: 1, Len: 2486
+28:756  0:015    11. B9FC9000: 'SSDT', 'CpuPm', Rev: 1, Len: 2878
+28:767  0:010    12. B9FF8000: 'ASF!', '18DF', Rev: 32, Len: 165
